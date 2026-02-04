@@ -1,4 +1,4 @@
-# @giszhc/viewer-utils 图片预览工具库
+# viewer-utils 图片预览工具库
 
 一个基于 [viewerjs](https://github.com/fengyuanchen/viewerjs) 封装的轻量级图片预览库，支持多种输入格式，开箱即用，并针对现代前端开发进行了 Tree Shaking 优化。
 

@@ -30,6 +30,7 @@ pnpm install @giszhc/viewer-utils
 
 ```ts
 import { previewSingle } from '@giszhc/viewer-utils';
+import "@giszhc/viewer-utils/dist/viewer-utils.css"
 
 // 方式 1: 传入 URL
 previewSingle('https://example.com/photo.jpg');
@@ -46,6 +47,7 @@ const handleClick = (e: MouseEvent) => {
 
 ```ts
 import { previewList } from '@giszhc/viewer-utils';
+import "@giszhc/viewer-utils/dist/viewer-utils.css"
 
 const images = [
     'https://example.com/1.jpg',
@@ -62,6 +64,7 @@ previewList(images, 1);
 
 ```ts
 import { previewFiles } from '@giszhc/viewer-utils';
+import "@giszhc/viewer-utils/dist/viewer-utils.css"
 
 const input = document.querySelector('input[type="file"]');
 input.addEventListener('change', (e) => {
@@ -76,6 +79,7 @@ input.addEventListener('change', (e) => {
 
 ```ts
 import { previewPicture, type IImageItem } from '@giszhc/viewer-utils';
+import "@giszhc/viewer-utils/dist/viewer-utils.css"
 
 const items: IImageItem[] = [
     { name: '风景', url: 'full.jpg', thumb: 'thumb.jpg' }
